@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
+    public List<Assets.System> systems;
     // Start is called before the first frame update
     void Start()
     {
