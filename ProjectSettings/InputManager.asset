@@ -41,8 +41,8 @@ InputManager:
     m_Name: Hover
     descriptiveName: 
     descriptiveNegativeName: 
-    negativeButton: space
-    positiveButton: left ctrl
+    negativeButton: left ctrl
+    positiveButton: space
     altNegativeButton: s
     altPositiveButton: w
     gravity: 3
