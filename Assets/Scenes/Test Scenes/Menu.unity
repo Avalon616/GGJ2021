@@ -152,6 +152,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1419951460421850, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
+      propertyPath: m_Name
+      value: UIController
+      objectReference: {fileID: 0}
     - target: {fileID: 4632753293960446, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -184,30 +188,22 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114049539065691888, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: df2422abc24589846b2de755b9daac20, type: 3}
-    - target: {fileID: 114221996131792988, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
-      propertyPath: m_Text
-      value: nubbernaut.com
+    - target: {fileID: 4632753293960446, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114708566844137424, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
-      propertyPath: m_Text
-      value: ' Created with Unity 2021.0.1b4 for Global Game Jam 2021'
+    - target: {fileID: 4632753293960446, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4632753293960446, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114754865640368622, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
       propertyPath: brightnessEffect
       value: 
       objectReference: {fileID: 980339799}
-    - target: {fileID: 114898506001689132, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: daf73a185cb3c6e43b96e44748a31987, type: 3}
-    - target: {fileID: 114993341941609502, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: 5d7c3a554ea618e4487e4d749b05f4ba, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}
 --- !u!114 &384942025 stripped
@@ -335,6 +331,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1263531450419518, guid: cc18238686906234bb678b403db8d8fd, type: 3}
+      propertyPath: m_Name
+      value: Load_Preferences
+      objectReference: {fileID: 0}
     - target: {fileID: 4084184335491190, guid: cc18238686906234bb678b403db8d8fd, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -365,6 +365,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4084184335491190, guid: cc18238686906234bb678b403db8d8fd, type: 3}
       propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4084184335491190, guid: cc18238686906234bb678b403db8d8fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4084184335491190, guid: cc18238686906234bb678b403db8d8fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4084184335491190, guid: cc18238686906234bb678b403db8d8fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114325646035853880, guid: cc18238686906234bb678b403db8d8fd, type: 3}
