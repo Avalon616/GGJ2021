@@ -58,7 +58,7 @@ public class ConsoleController : MonoBehaviour
         selectionSelected = true;
     }
 
-    public void DisplayChoices()
+    public void DisplaySystems()
     {
         List<string> s = new List<string>();
         foreach(Assets.System sy in stats.systems)
@@ -66,6 +66,32 @@ public class ConsoleController : MonoBehaviour
             s.Add(sy.DisplayName);
         }
         Variables.Object(SelectionPanel.gameObject).Set("Options", s);
+        for(int i=0; i<SelectionPanel.gameObject.transform.childCount;i++)
+        {
+            Destroy(SelectionPanel.transform.GetChild(i).gameObject);
+        }
+        SelectionPanel.gameObject.SetActive(true);
+        CustomEvent.Trigger(SelectionPanel.gameObject, "SwapContents");
+
+        selectionSelected = false;
+    }
+
+    public void DisplayActions(int systemIndex)
+    {
+        List<string> s = new List<string>();
+        foreach(Action ac in stats.systems[systemIndex].actions)
+        {
+            s.Add(ac.DisplayName);
+        }
+        Variables.Object(SelectionPanel.gameObject).Set("Options", s);
+        for (int i = 0; i < SelectionPanel.gameObject.transform.childCount; i++)
+        {
+            Destroy(SelectionPanel.transform.GetChild(i).gameObject);
+        }
+        if (SelectionPanel.IsActive())
+        {
+            CustomEvent.Trigger(SelectionPanel.gameObject, "SwapContents");
+        }
         SelectionPanel.gameObject.SetActive(true);
         selectionSelected = false;
     }

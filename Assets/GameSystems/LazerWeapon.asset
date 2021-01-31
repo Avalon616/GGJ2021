@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f1a44fe2500f5a41875be92773da4c5, type: 3}
   m_Name: LazerWeapon
   m_EditorClassIdentifier: 
-  DisplayName: 
+  DisplayName: Laser
+  actions:
+  - {fileID: 11400000, guid: 0f721d289a2d16e4cac41525e68f5c27, type: 2}
   AppearenceObject: {fileID: 0}

@@ -11,6 +11,7 @@ namespace Assets
     public class Action:ScriptableObject
     {
         public string DisplayName;
+        public bool damaged;
 
     }
 }

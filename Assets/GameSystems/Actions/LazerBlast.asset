@@ -10,6 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7babb42d8df098499ed6664145ff119, type: 3}
-  m_Name: NewAction
+  m_Name: LazerBlast
   m_EditorClassIdentifier: 
-  DisplayName: 
+  DisplayName: Laser I
+  damaged: 0
