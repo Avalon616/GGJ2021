@@ -498,6 +498,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 736349874, guid: b33d983b9b458ba44ae3bdc8b00cd807, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2370747278023007081, guid: b33d983b9b458ba44ae3bdc8b00cd807, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -602,6 +606,10 @@ PrefabInstance:
     - target: {fileID: 4223889343657732558, guid: 0329ec91df759444aab39c2edc047eb1, type: 3}
       propertyPath: m_Name
       value: AsteroidPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223889343657732558, guid: 0329ec91df759444aab39c2edc047eb1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0329ec91df759444aab39c2edc047eb1, type: 3}
