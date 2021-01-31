@@ -739,7 +739,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 1840294596193318808}
+  m_LookAt: {fileID: 0}
   m_Follow: {fileID: 1279370542}
   m_Lens:
     FieldOfView: 53.130104
@@ -750,7 +750,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.6, y: 1}
+    m_SensorSize: {x: 2.886628, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -840,7 +840,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: b99630c2ed526754fb03ce4a6595466f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -904,25 +904,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 1, z: 2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &1351601622628445474 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7594339507474651083, guid: f112d4ab394cfe1499e53447984bda23, type: 3}
-  m_PrefabInstance: {fileID: 8909625330396953321}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1351601622628445475
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1351601622628445474}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6823461999428419903, guid: 489479169b17d3948944c0fdf89fc406, type: 3}
 --- !u!1001 &1539784897493289601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -978,13 +959,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1539784898309979335, guid: 8d5e2ca6bba44424cb69b02d1c2f230a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b99630c2ed526754fb03ce4a6595466f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d5e2ca6bba44424cb69b02d1c2f230a, type: 3}
---- !u!4 &1840294596193318808 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7074964967598689649, guid: f112d4ab394cfe1499e53447984bda23, type: 3}
-  m_PrefabInstance: {fileID: 8909625330396953321}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4465367561473563835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1040,6 +1020,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AsteroidPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 6347820606417361730, guid: 0329ec91df759444aab39c2edc047eb1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b99630c2ed526754fb03ce4a6595466f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0329ec91df759444aab39c2edc047eb1, type: 3}
 --- !u!1001 &5881829780882118132
@@ -1049,6 +1033,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5881829780651488318, guid: 2207dd85ba6c3394eb59a7b3c119f819, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b99630c2ed526754fb03ce4a6595466f, type: 2}
     - target: {fileID: 5881829781954485056, guid: 2207dd85ba6c3394eb59a7b3c119f819, type: 3}
       propertyPath: m_RootOrder
       value: 7
