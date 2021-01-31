@@ -967,11 +967,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3046662738246566284, guid: f112d4ab394cfe1499e53447984bda23, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.02944453
+      value: -0.029444518
       objectReference: {fileID: 0}
     - target: {fileID: 3046662738246566284, guid: f112d4ab394cfe1499e53447984bda23, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.05316259
+      value: -0.053162567
       objectReference: {fileID: 0}
     - target: {fileID: 8909625329394409410, guid: f112d4ab394cfe1499e53447984bda23, type: 3}
       propertyPath: m_Name
